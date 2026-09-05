@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Healthy Bite Quest</string>
+    <string name="welcome_player">Welcome, %1$s!</string>
+    <string name="home_tagline">Learn healthy eating through a fun food game.</string>
+    <string name="home_points">Total points: %1$d</string>
+    <string name="home_badges">Badges unlocked: %1$d</string>
+    <string name="play_game">Play Game</string>
+    <string name="my_progress">My Progress</string>
+    <string name="change_name">Change player name</string>
+
+    <string name="name_title">What is your name?</string>
+    <string name="name_hint">Type your first name</string>
+    <string name="save_name">Save and continue</string>
+    <string name="error_enter_name">Please enter your name.</string>
+
+    <string name="instructions_title">How to play</string>
+    <string name="instructions_body">Drag each food into the correct category.</string>
+    <string name="instructions_healthy">Healthy foods help your body grow strong.</string>
+    <string name="instructions_less_healthy">Less healthy foods are okay sometimes, but not every day.</string>
+    <string name="start_game">Start Game</string>
+
+    <string name="question_number">Question %1$d / %2$d</string>
+    <string name="game_score">Score: %1$d</string>
+    <string name="drag_instruction">Drag this food to the correct box</string>
+    <string name="healthy">Healthy</string>
+    <string name="less_healthy">Less Healthy</string>
+    <string name="loading_game">Loading tasty questions…</string>
+    <string name="error_load_game">Unable to load game data. Please try again.</string>
+    <string name="retry">Try again</string>
+    <string name="continue_game">Continue</string>
+    <string name="try_again">Try Again!</string>
+    <string name="feedback_correct">Great choice! +10 points. %1$s</string>
+    <string name="feedback_incorrect">Try Again! %1$s</string>
+    <string name="food_image">Food picture</string>
+
+    <string name="challenge_complete">Challenge Complete!</string>
+    <string name="result_score">Score: %1$d/%2$d</string>
+    <string name="result_correct">%1$d out of %2$d correct (%3$d incorrect)</string>
+    <string name="result_accuracy">Accuracy: %1$d%%</string>
+    <string name="result_badges">Badges earned this game: %1$s</string>
+    <string name="result_no_badge">No new badge this time. Keep going!</string>
+    <string name="play_again">Play Again</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <string name="progress_title">My Progress</string>
+    <string name="progress_player">Player: %1$s</string>
+    <string name="progress_points">Total points: %1$d</string>
+    <string name="progress_high_score">Highest score: %1$d</string>
+    <string name="progress_games">Games completed: %1$d</string>
+    <string name="progress_correct">Correct answers: %1$d</string>
+    <string name="progress_attempted">Questions attempted: %1$d</string>
+    <string name="progress_accuracy">Accuracy: %1$d%%</string>
+    <string name="progress_badges">Badges unlocked:\n%1$s</string>
+    <string name="progress_no_badges">Badges unlocked: none yet</string>
+    <string name="back">Back</string>
+</resources>

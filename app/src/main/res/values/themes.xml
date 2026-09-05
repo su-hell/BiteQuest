@@ -1,0 +1,29 @@
+<resources>
+    <style name="Theme.HealthyBiteQuest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/leaf_green</item>
+        <item name="colorPrimaryVariant">@color/leaf_green_dark</item>
+        <item name="colorOnPrimary">@color/button_text</item>
+        <item name="colorSecondary">@color/sunny_orange</item>
+        <item name="android:statusBarColor">@color/leaf_green_dark</item>
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Widget.HealthyBiteQuest.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="cornerRadius">18dp</item>
+    </style>
+
+    <style name="Text.Title" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/leaf_green_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="Text.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

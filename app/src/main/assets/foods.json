@@ -1,0 +1,102 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "category": "healthy",
+      "image": "food_apple",
+      "explanation": "Apples are a crunchy fruit with fibre and vitamins."
+    },
+    {
+      "id": 2,
+      "name": "Banana",
+      "category": "healthy",
+      "image": "food_banana",
+      "explanation": "Bananas give you natural energy and potassium."
+    },
+    {
+      "id": 3,
+      "name": "Carrot",
+      "category": "healthy",
+      "image": "food_carrot",
+      "explanation": "Carrots are a colourful vegetable that help keep you healthy."
+    },
+    {
+      "id": 4,
+      "name": "Broccoli",
+      "category": "healthy",
+      "image": "food_broccoli",
+      "explanation": "Broccoli is a green vegetable packed with vitamins."
+    },
+    {
+      "id": 5,
+      "name": "Water",
+      "category": "healthy",
+      "image": "food_water",
+      "explanation": "Water is the best everyday drink for your body."
+    },
+    {
+      "id": 6,
+      "name": "Yogurt",
+      "category": "healthy",
+      "image": "food_yogurt",
+      "explanation": "Plain yogurt has protein that helps your bones and muscles."
+    },
+    {
+      "id": 7,
+      "name": "Salmon",
+      "category": "healthy",
+      "image": "food_salmon",
+      "explanation": "Salmon is a fish that gives your body healthy fats."
+    },
+    {
+      "id": 8,
+      "name": "Oatmeal",
+      "category": "healthy",
+      "image": "food_oatmeal",
+      "explanation": "Oatmeal is a filling breakfast that gives lasting energy."
+    },
+    {
+      "id": 9,
+      "name": "Candy",
+      "category": "less_healthy",
+      "image": "food_candy",
+      "explanation": "Candy has lots of sugar and is not an everyday food."
+    },
+    {
+      "id": 10,
+      "name": "Soda",
+      "category": "less_healthy",
+      "image": "food_soda",
+      "explanation": "Soda is a sugary drink. Water is a healthier choice."
+    },
+    {
+      "id": 11,
+      "name": "Chips",
+      "category": "less_healthy",
+      "image": "food_chips",
+      "explanation": "Chips are salty and fried, so they are less healthy."
+    },
+    {
+      "id": 12,
+      "name": "Doughnut",
+      "category": "less_healthy",
+      "image": "food_doughnut",
+      "explanation": "Doughnuts are a sweet treat with lots of sugar and fat."
+    },
+    {
+      "id": 13,
+      "name": "Ice Cream",
+      "category": "less_healthy",
+      "image": "food_icecream",
+      "explanation": "Ice cream is a dessert. Enjoy it sometimes, not every day."
+    },
+    {
+      "id": 14,
+      "name": "Chocolate Bar",
+      "category": "less_healthy",
+      "image": "food_chocolate",
+      "explanation": "Chocolate bars are high in sugar and are a sometimes food."
+    }
+  ]
+}
