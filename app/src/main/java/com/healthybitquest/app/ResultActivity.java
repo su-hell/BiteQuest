@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.healthybitquest.app.game.BadgeCalculator;
+import com.healthybitquest.app.storage.LocalStorageManager;
 
 import java.util.List;
 
@@ -26,11 +27,14 @@ public class ResultActivity extends AppCompatActivity {
                 : Math.round((correct * 100f) / (correct + incorrect));
 
         TextView scoreText = findViewById(R.id.textResultScore);
+        TextView playerNameText = findViewById(R.id.textResultPlayerName);
         TextView correctText = findViewById(R.id.textResultCorrect);
         TextView accuracyText = findViewById(R.id.textResultAccuracy);
         TextView badgeText = findViewById(R.id.textResultBadge);
         TextView messageText = findViewById(R.id.textResultMessage);
 
+        String playerName = new LocalStorageManager(this).getPlayerName();
+        playerNameText.setText(getString(R.string.result_player_name, playerName));
         scoreText.setText(getString(R.string.result_score, score, AppConstants.MAX_SCORE));
         correctText.setText(getString(R.string.result_correct, correct, incorrect + correct, incorrect));
         accuracyText.setText(getString(R.string.result_accuracy, accuracy));
