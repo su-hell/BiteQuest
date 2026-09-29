@@ -53,7 +53,9 @@ public class SoundPlayer {
     }
 
     public void playIncorrect() {
-        play(incorrectId, loadedIncorrect);
+        if (!muted) {
+            play(incorrectId, loadedIncorrect);
+        }
     }
 
     public void setMuted(boolean muted) {
