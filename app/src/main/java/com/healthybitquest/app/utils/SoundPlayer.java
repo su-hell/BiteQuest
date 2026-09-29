@@ -16,6 +16,7 @@ public class SoundPlayer {
     private int incorrectId;
     private boolean loadedSuccess;
     private boolean loadedIncorrect;
+    private boolean muted;
 
     public void load(Context context) {
         release();
@@ -46,11 +47,21 @@ public class SoundPlayer {
     }
 
     public void playSuccess() {
-        play(successId, loadedSuccess);
+        if (!muted) {
+            play(successId, loadedSuccess);
+        }
     }
 
     public void playIncorrect() {
         play(incorrectId, loadedIncorrect);
+    }
+
+    public void setMuted(boolean muted) {
+        this.muted = muted;
+    }
+
+    public boolean isMuted() {
+        return muted;
     }
 
     public void release() {

@@ -47,6 +47,7 @@ public class GameActivity extends AppCompatActivity {
     private ProgressBar questionProgress;
     private Button continueButton;
     private Button tryAgainButton;
+    private Button soundToggleButton;
 
     private boolean dragInProgress;
 
@@ -84,11 +85,21 @@ public class GameActivity extends AppCompatActivity {
         questionProgress = findViewById(R.id.progressQuestions);
         continueButton = findViewById(R.id.buttonContinue);
         tryAgainButton = findViewById(R.id.buttonTryAgain);
+        soundToggleButton = findViewById(R.id.buttonSoundToggle);
 
         Button retryLoadButton = findViewById(R.id.buttonRetryLoad);
         retryLoadButton.setOnClickListener(v -> loadGameData());
         continueButton.setOnClickListener(v -> onContinueClicked());
         tryAgainButton.setOnClickListener(v -> resetCurrentQuestionForRetry());
+        soundToggleButton.setOnClickListener(v -> toggleSound());
+    }
+
+    private void toggleSound() {
+        boolean muted = !soundPlayer.isMuted();
+        soundPlayer.setMuted(muted);
+        soundToggleButton.setText(muted ? R.string.sound_turn_on : R.string.sound_mute);
+        soundToggleButton.setContentDescription(
+                getString(muted ? R.string.sound_turn_on : R.string.sound_mute));
     }
 
     private void loadGameData() {

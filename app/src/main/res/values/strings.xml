@@ -32,6 +32,8 @@
     <string name="feedback_correct">Great choice! +10 points. %1$s</string>
     <string name="feedback_incorrect">Try Again! %1$s</string>
     <string name="food_image">Food picture</string>
+    <string name="sound_mute">Mute sounds</string>
+    <string name="sound_turn_on">Turn sounds on</string>
 
     <string name="challenge_complete">Challenge Complete!</string>
     <string name="result_player_name">Great job, %1$s!</string>
