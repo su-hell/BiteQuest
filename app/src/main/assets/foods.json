@@ -97,6 +97,13 @@
       "category": "less_healthy",
       "image": "food_chocolate",
       "explanation": "Chocolate bars are high in sugar and are a sometimes food."
+    },
+    {
+      "id": 15,
+      "name": "Strawberry",
+      "category": "healthy",
+      "image": "food_strawberry",
+      "explanation": "Strawberries are fruits with fibre and vitamin C."
     }
   ]
 }
