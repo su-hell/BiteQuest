@@ -30,7 +30,7 @@
     <string name="continue_game">Continue</string>
     <string name="try_again">Try Again!</string>
     <string name="feedback_correct">Great choice! +10 points. %1$s</string>
-    <string name="feedback_incorrect">Try Again! %1$s</string>
+    <string name="feedback_incorrect">Try again! This food belongs in %1$s. %2$s</string>
     <string name="food_image">Food picture</string>
     <string name="sound_mute">Mute sounds</string>
     <string name="sound_turn_on">Turn sounds on</string>

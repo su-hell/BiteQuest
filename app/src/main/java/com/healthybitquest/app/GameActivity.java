@@ -201,7 +201,15 @@ public class GameActivity extends AppCompatActivity {
         } else {
             soundPlayer.playIncorrect();
             feedbackText.setTextColor(ContextCompat.getColor(this, R.color.feedback_incorrect));
-            feedbackText.setText(getString(R.string.feedback_incorrect, result.getExplanation()));
+            FoodItem food = gameManager.getCurrentFood();
+            int categoryLabel = food.isHealthy()
+                    ? R.string.less_healthy
+                    : R.string.healthy;
+            feedbackText.setText(getString(
+                    R.string.feedback_incorrect,
+                    getString(categoryLabel),
+                    result.getExplanation()
+            ));
             continueButton.setVisibility(View.VISIBLE);
             tryAgainButton.setVisibility(View.VISIBLE);
         }
